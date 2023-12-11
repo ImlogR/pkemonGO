@@ -6,6 +6,6 @@ services:
     ports:
       - 5432:5432
     environment:
-      POSTGRES_USER: robin
-      POSTGRES_PASSWORD: robin
-      POSTGRES_DB: pokemon
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
