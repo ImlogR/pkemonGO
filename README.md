@@ -26,6 +26,6 @@ This project demonstrates the usage of FastAPI with Uvicorn for building a RESTf
 
 5. Once database is ready to accept connections then run the following script to start the uvicorn service
     `uvicorn myapi:app`
-    the server must be running on your http://localhist:8000 or http://127.0.0.1:8000 for now
+    the server must be running on your http://localhost:8000 or http://127.0.0.1:8000 for now
     you can view the route /api/v1/pokemons for complete pokemon list
     I recommend to use FastAPI swagger UI for convenience for passing parameters at http://localhost:8000/docs or http://127.0.0.1:8000/docs
