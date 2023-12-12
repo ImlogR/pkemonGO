@@ -31,6 +31,6 @@ This project demonstrates the usage of FastAPI with Uvicorn for building a RESTf
     I recommend to use FastAPI swagger UI for convenience for passing parameters at http://localhost:8000/docs or http://127.0.0.1:8000/docs
 
 6. You can test the filtering system as:
-    ~ http://127.0.0.1:8000/api/v1/pokemons?name=charmeleon&type=fire Or
-    ~ http://127.0.0.1:8000/api/v1/pokemons?name=charmeleon Or
-    ~ http://127.0.0.1:8000/api/v1/pokemons?type=fire
+    - http://127.0.0.1:8000/api/v1/pokemons?name=charmeleon&type=fire Or
+    - http://127.0.0.1:8000/api/v1/pokemons?name=charmeleon Or
+    - http://127.0.0.1:8000/api/v1/pokemons?type=fire
